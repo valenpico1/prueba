@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen relative">
+    <main className="h-screen w-screen relative" style={{ backgroundColor: '#f6ede4' }}>
       <Header />
       <Hero />
     </main>
